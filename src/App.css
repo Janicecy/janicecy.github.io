@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+:root {
+  color: #ecf0f1;
+  font-family: 'Lucida Sans', sans-serif;
+  letter-spacing: 1.5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-wrapper {
+  box-shadow: 0 1px 2px -2px rgba(0,0,0,.16), 0 3px 6px 0 rgba(0,0,0,.12), 0 5px 12px 4px rgba(0,0,0,.09);
+  background-color:rgba(142, 68, 173, .9); 
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 20px;
+  cursor: pointer;
+  text-decoration: unset;
+  color: inherit;
+  transition: transform .3s; /* Animation */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project-wrapper:hover {
+  background-color: rgba(155, 89, 182,.9);
+  transform: scale(1.1);
+}
+
+#projects {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 500px) {
+  #profile {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10%;
+  }
+
+  .project-wrapper {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  #projects {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+    justify-content: flex-end;
+  }
+  img {
+    width: 12%;
+  }
+}
+
+
+.project-name {
+
+}
+
+.project-desc {
+  font-size: 80%;
+  color: rgba(189, 195, 199,1.0);
+}
+
+
+
+.project-header {
+  display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.project-header > .project-name {
+  flex: 80%;
+  /* margin-right: 5px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-icons {
+  flex: 20%;
 }
