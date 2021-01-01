@@ -10,7 +10,7 @@ yarn install
 ```
 yarn start
 ```
-## ScreenShots
+## Screenshots
 
 <img src="https://github.com/JANICECY/janicecy.github.io/blob/master/src/demo/mobile.png" width=400/>
 <img src="https://github.com/JANICECY/janicecy.github.io/blob/master/src/demo/desktop.png"/>
