@@ -36,13 +36,17 @@ function App() {
       <ParticleBG />
       <div id='profile'>
         <h1>Hello,</h1>
-        <h2 >My name is  <span style={{ color: 'rgba(241, 196, 15,1.0)'}}>Ying Chen</span> </h2>
-        <p>I am a full-stack developer and I have 1-year work experience in React.js and Node.js</p>
+        <h2 >My name is  <span style={{ color: 'rgba(241, 196, 15,1.0)' }}>Ying Chen</span> </h2>
+        <p>I am a full-stack developer and I have 1-year work experience in React.js and Node.js.</p>
         <p>Outside of programming, I enjoy video games and coffee.</p>
+        <p>You can find me on <a style={{ color: 'rgba(241, 196, 15,1.0)' }} href='https://github.com/JANICECY'>GitHub</a>  or reach me on <a style={{ color: 'rgba(241, 196, 15,1.0)' }} href="janicecy1217@gmail.com"> janicecy1217@gmail.com</a>.
+          </p>
       </div>
-      <div id='projects'>
-        <h3>Project <span style={{ color: 'rgba(241, 196, 15,1.0)'}}>Highlights</span></h3>
-        {projects.map(item => renderProject(item))}
+      <div id='project-section'>
+        <h3 id='highlight'>Project <span style={{ color: 'rgba(241, 196, 15,1.0)' }}>Highlights</span></h3>
+        <div id='projects'>
+          {projects.map(item => renderProject(item))}
+        </div>
       </div>
     </>
   );

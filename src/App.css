@@ -13,7 +13,6 @@
   background-color:rgba(142, 68, 173, .9); 
   border-radius: 30px;
   padding: 10px 30px;
-  margin: 20px;
   cursor: pointer;
   text-decoration: unset;
   color: inherit;
@@ -46,10 +45,50 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 10%;
-    justify-content: flex-end;
   }
   img {
     width: 12%;
+  }
+
+  #highlight {
+    text-align: end;
+    margin: 3% 10%;
+  }
+}
+
+@media(min-width: 500px) {
+  :root {
+    padding: 5vh 5vw;
+  }
+
+  img {
+    width: 30px;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  .project-wrapper {
+    width: 30%;
+    margin-right: 30px;
+  }
+
+  #project-section {
+    position: absolute;
+    bottom: 10%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
   }
 }
 
