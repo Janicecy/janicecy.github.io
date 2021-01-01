@@ -1,6 +1,6 @@
 ## Built With
-- React
-You can visit the deployed app, at https://janicecy.github.io
+- React<br /><br />
+__You can visit the deployed app, at https://janicecy.github.io__
 ## Setup
 To run this project, install it locally using npm or yarn:
 ```
