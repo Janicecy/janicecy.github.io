@@ -60,7 +60,8 @@ code {
     margin: 0 auto;
     padding: 0 10%;
   }
-  img {
+  
+  .icon-img {
     width: 12%;
   }
 
@@ -75,7 +76,7 @@ code {
     padding: 5vh 5vw;
   } */
 
-  img {
+  .icon-img {
     width: 30px;
   }
 
@@ -135,4 +136,10 @@ code {
 
 .ft-yellow {
   color: rgba(241, 196, 15,1.0);
+}
+
+img {
+  margin: 0 auto;
+  max-width: 500px;
+  display: block;
 }

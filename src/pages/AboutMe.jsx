@@ -10,7 +10,7 @@ export default function AboutMe() {
             <a className='project-wrapper' href={link} target='_blank'>
                 <p className='project-header'>
                     <span className='project-name'>{name}</span>
-                    {icons.map(i => <img src={i} alt={i} className='project-icon' style={{ marginLeft: 5 }} />)}
+                    {icons.map(i => <img src={i} alt={i} className='icon-img' style={{ marginLeft: 5 }} />)}
                 </p>
                 <p className='project-desc'>{desc}</p>
             </a>
