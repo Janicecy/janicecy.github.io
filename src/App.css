@@ -71,9 +71,9 @@ code {
 }
 
 @media(min-width: 500px) {
-  :root {
+  /* :root {
     padding: 5vh 5vw;
-  }
+  } */
 
   img {
     width: 30px;
@@ -131,4 +131,8 @@ code {
 
 .project-icons {
   flex: 20%;
+}
+
+.ft-yellow {
+  color: rgba(241, 196, 15,1.0);
 }
