@@ -20,5 +20,13 @@ yarn serve
 piepenv run start
 ```
 ## Screenshots
-![Image text](https://github.com/Janicecy/vue-top-movies/blob/master/demo-imgs/home.png)
 
+### Main Page
+![Image text](https://github.com/Janicecy/vue-top-movies/raw/master/demo-imgs/home.png)
+
+### Movie List
+![Image text](https://github.com/Janicecy/vue-top-movies/raw/master/demo-imgs/movie_list.png)
+
+
+### Charts
+![Image text](https://github.com/Janicecy/vue-top-movies/blob/master/demo-imgs/charts.png?raw=true)

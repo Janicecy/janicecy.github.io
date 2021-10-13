@@ -31,7 +31,7 @@ npm start
 #### Open http://localhost:3000 to view it in the browser.
 
 ## Live Demo
-![image](https://github.com/JANICECY/react-twitter-trend-app/blob/master/demo/live.gif)
+![image](https://github.com/JANICECY/react-twitter-trend-app/raw/master/demo/live.gif)
 
-## Screenshots
-![Image text](https://github.com/JANICECY/react-twitter-trend-app/blob/master/demo/demo1.png)
+## Screenshot
+![Image text](https://github.com/JANICECY/react-twitter-trend-app/raw/master/demo/demo1.png)

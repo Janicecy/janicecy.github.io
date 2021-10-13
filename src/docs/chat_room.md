@@ -1,6 +1,6 @@
 # react-express-chat-room 
 A real-time chat room application built with Socket.IO\
-You can play around with it at http://janicecy.com/react-express-chat-room
+You can play around with it at [http://janicecy.com/react-express-chat-room](http://janicecy.com/react-express-chat-room)
 ## Built With
 - React
 - Node.js
@@ -21,7 +21,14 @@ yarn start
 yarn start 
 ```
 ## Screenshots
-![laptop_mainPage](/chat_room_demo_imgs/laptop_mainPage.png)
-![laptop_mainPage](/chat_room_demo_imgs/laptop_chatRoom.png)
-![laptop_mainPage](/chat_room_demo_imgs/mobile_userList.png)
-![laptop_mainPage](/chat_room_demo_imgs/mobile_chatRoom.png)
+
+### Desktop View
+![Image text](https://github.com/JANICECY/react-express-chat-room/raw/master/demo_images/laptop_mainPage.png)
+
+![laptop_mainPage](https://github.com/JANICECY/react-express-chat-room/raw/master/demo_images/laptop_chatRoom.png)
+
+
+### Mobile View
+![laptop_mainPage](https://github.com/JANICECY/react-express-chat-room/raw/master/demo_images/mobile_chatRoom.png)
+
+![laptop_mainPage](https://github.com/JANICECY/react-express-chat-room/raw/master/demo_images/mobile_userList.png)
