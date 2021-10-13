@@ -52,9 +52,9 @@ export default function App(props) {
           <SubMenu key="project" icon={<SettingOutlined />} title="Projects">
             {renderProjectMenus()}
           </SubMenu>
-          <SubMenu key="Algo" icon={<SettingOutlined />} title="Algorithm Notes">
+          {/* <SubMenu key="Algo" icon={<SettingOutlined />} title="Algorithm Notes">
             {renderAlgoNoteMenus()}
-          </SubMenu>
+          </SubMenu> */}
         </Menu>
       </div>
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import ParticleBG from './ParticleBG'
 import { useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import { projects } from '../consts'
+
 export default function Project() {
 
     const [mdContent, setMdContent] = useState('')
@@ -22,29 +22,7 @@ export default function Project() {
     }, [projectName])
 
 
-    const renderers = {
-        //This custom renderer changes how images are rendered
-        //we use it to constrain the max width of an image to its container
-        image: ({
-            alt,
-            src,
-            title,
-        }) => (
-            <img
-                alt={alt}
-                src={src}
-                title={title}
-                style={{ maxWidth: 350 }} />
-        ),
-    };
-
-
     return (
-        <div>
-            {/* <ParticleBG /> */}
-
-            <ReactMarkdown escapeHtml={false} children={mdContent} renderers={renderers} />
-
-        </div>
+        <ReactMarkdown escapeHtml={false} children={mdContent} />
     )
 }

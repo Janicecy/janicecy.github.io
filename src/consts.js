@@ -16,18 +16,18 @@ export const projects = [
         filePath: chat_room_md
     },
     {
-        name: 'react-twitter-trend-app',
-        desc: 'A React and Flask application, get latest Twitter trends via Twitter APIs',
-        link: 'https://github.com/JANICECY/react-twitter-trend-app',
-        icons: [reactIcon, flaskIcon],
-        filePath: twitter_trend_md
-    },
-    {
         name: 'vue-top-movies',
         desc: 'A full-stack web application built with Vue2 and Flask. Get a glimpse of IMDB top 250 rated movies and simple analytics with web crawler.',
         link: 'https://github.com/Janicecy/vue-top-movies',
         icons: [vueIcon, flaskIcon],
         filePath: top_movies_md
+    },
+    {
+        name: 'react-twitter-trend-app',
+        desc: 'A React and Flask application, get latest Twitter trends via Twitter APIs',
+        link: 'https://github.com/JANICECY/react-twitter-trend-app',
+        icons: [reactIcon, flaskIcon],
+        filePath: twitter_trend_md
     }
 ]
 
