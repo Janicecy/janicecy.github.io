@@ -63,7 +63,7 @@ export default function App(props) {
         <Switch>
           <Route component={AboutMe} path='/about' />
           <Route component={Project} path='/project/:projectName' />
-          {/* <Redirect to="/about" /> */}
+          <Redirect to="/about" />
         </Switch>
       </div>
     </div>
