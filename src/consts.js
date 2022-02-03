@@ -30,7 +30,7 @@ export const projects = [
         desc: 'A full-stack web application built with Vue2 and Flask. Get a glimpse of IMDB top 250 rated movies and simple analytics with web crawler.',
         githubLink: 'https://github.com/Janicecy/vue-top-movies',
         imgPath: 'https://github.com/Janicecy/vue-top-movies/raw/master/demo-imgs/home.png',
-        demoLink: 'https://janicecy.github.io/vue-top-movies/home'
+        demoLink: 'https://janicecy.github.io/vue-top-movies'
     },
     {
         name: 'Document Management System',

@@ -78,6 +78,7 @@ export default function Projects() {
         </button>
         <button
           className='button-54'
+          style={{ display: !demoLink && 'none' }}
           onClick={() => openPage(demoLink)}
         >
           Demo
