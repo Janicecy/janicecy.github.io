@@ -65,7 +65,7 @@ export default function Projects() {
 
   const renderProject = ({ imgPath, name, desc, githubLink, demoLink }) => (
     <div className={classes.project}>
-      <img src={imgPath} alt={name} onClick={() => openPage(githubLink)} />
+      <img src={imgPath} alt={name}/>
       <div className='name'>{name}</div>
       <div className='description'>{desc}</div>
       <div className='linkGroup'>

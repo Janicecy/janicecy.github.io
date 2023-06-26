@@ -1,26 +1,25 @@
-import sudoku from './assets/images/sudoku.png'
 import chat_room from './assets/images/chat_room.png'
 import data from './assets/images/1.png';
 import capstone from './assets/images/capstone.png'
 
 export const projects = [
     {
-        name: 'Sudoku Solver',
-        desc: 'Watch your computer play Sudoku. Visualization of how backtracking algorithm can solve a sudoku puzzle. Built with Typescript and React.',
+        name: 'Sudoku Puzzle',
+        desc: 'Play Sudoku online and see how Backtracking algorithm solves a sudoku puzzle. Built with Typescript and React.',
         githubLink: 'https://github.com/Janicecy/sudoku-puzzle',
-        imgPath: sudoku,
+        imgPath: 'https://github.com/Janicecy/sudoku-puzzle/raw/master/demo-imgs/gif.gif',
         demoLink: 'https://janicecy.github.io/sudoku-puzzle/'
     },
     {
         name: 'Real-time Chat Room',
-        desc: 'Established bilateral communication between a server and its clients using Socket.IO, providing the ability to share messages or images and notify users of events in real-time.',
+        desc: 'Established bilateral communication between a server and its clients using Socket.IO, providing the ability to share messages and images in real time',
         githubLink: 'https://github.com/JANICECY/react-express-chat-room',
         imgPath: chat_room,
         demoLink: 'https://react-express-chat-room.herokuapp.com/'
     },
     {
         name: 'Data Visualizations',
-        desc: 'Visualize data supplied from the API endpoints in the means of chart, table, and map. Built with React and Ant Design Charts.',
+        desc: 'Visualize data supplied from the API endpoints in forms of chart, table, and map. Built with React and Ant Design Charts.',
         githubLink: 'https://github.com/Janicecy/ws-product-python',
         demoLink: 'https://ws-product-python-yingchen.glitch.me/',
         imgPath: data
@@ -34,7 +33,7 @@ export const projects = [
     },
     {
         name: 'Document Management System',
-        desc: 'Worked with team members to build a web-based document management system for internal business use.',
+        desc: 'A full-stack application using Django and React for managing, previewing, and searching tax files',
         imgPath: capstone,
     }
 ]
